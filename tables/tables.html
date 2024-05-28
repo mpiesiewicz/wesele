@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Seat Arrangement</title>
+
+<link href="tables.css" rel="stylesheet">
+
+
+</head>
+<body>
+    <div class="main-table-container">
+
+        <h2>Układ Stołów</h2>
+
+        <div class="slideshow-container">
+
+            <div class="table fade" id="table1">
+                <h3 class="table-header"></h3>
+                <div class="table-content" id="table-content1"></div>
+            </div>
+
+            <div class="table fade" id="table2">
+                <h3 class="table-header"></h3>
+                <div class="table-content" id="table-content2"></div>
+            </div>
+
+            <div class="table fade" id="table3">
+                <h3 class="table-header"></h3>
+                <div class="table-content" id="table-content3"></div>
+            </div>
+
+            <!-- Next and previous buttons -->
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+            <div style="text-align:center">
+                <span class="dot" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+                <span class="dot" onclick="currentSlide(3)"></span>
+            </div>
+        </div>
+    </div>
+
+    <br>
+
+
+
+<!-- Link to external JavaScript file -->
+<script src="tables.js"></script>
+
+</body>
+</html>
