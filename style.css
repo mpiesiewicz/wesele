@@ -70,7 +70,7 @@ nav {
 
 nav a {
     font-family: var(--font-type-special);
-    font-weight: 400;
+    font-weight: 800;
     font-size: var(--font-size-medium);
     color: var(--main-color);
     text-decoration: none;
